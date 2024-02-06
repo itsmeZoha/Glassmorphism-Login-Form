@@ -90,3 +90,30 @@ button{
     font-weight: 600;
     cursor: pointer;
 }
+.social{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.social a{
+    width: 150px;
+    border-radius: 3px;
+    padding: 8px 10px;
+    background-color: rgba(255,255,255, 0.27);
+    color: #eaf0fb;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.social a i{
+    margin-right: 6px;
+}
+.social a:hover{
+    background-color: rgba(255,255,255, 0.47);
+}
+footer{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 15px;
+    font-size: 12px;
+}
